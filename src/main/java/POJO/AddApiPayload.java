@@ -80,5 +80,7 @@ public class AddApiPayload {
 
         System.out.println("BrowserAutomation");
         System.out.println("Web Automation");
+        System.out.println("AppiumAutomation");
+        System.out.println("Mobile Automation");
     }
 }
