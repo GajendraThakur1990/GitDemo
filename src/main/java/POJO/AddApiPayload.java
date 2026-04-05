@@ -75,4 +75,10 @@ public class AddApiPayload {
     public void setLanguage(String language) {
         this.language = language;
     }
+
+    public void BrowserAutomation(){
+
+        System.out.println("BrowserAutomation");
+        System.out.println("Web Automation");
+    }
 }

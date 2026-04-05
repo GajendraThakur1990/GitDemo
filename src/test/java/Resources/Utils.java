@@ -38,6 +38,13 @@ public class Utils {
 
         String resp = response.asString();
         JsonPath js = new JsonPath(resp);
+        System.out.println(js.get(key).toString());
+        System.out.println("4");
+        System.out.println("5");
+        System.out.println("6");
+        System.out.println("7");
         return js.get(key).toString();
     }
+
+
 }
